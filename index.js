@@ -31,7 +31,7 @@ game = {
              self.guessesRemaining--;
              console.log("You guessed the WRONG letter FOOL!");
          } else {
-             console.log("You've already guessed this letter, IIDIIOOOT CUNNNTTTT!");
+             console.log("You've already guessed this letter!");
          }
        } else {
            if (self.guessedLetters.indexOf(result.guessLetter) < 0) {
